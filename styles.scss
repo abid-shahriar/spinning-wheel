@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .arrow {
+    font-size: 2rem;
+  }
+
+  .selected-number {
+    font-size: 2rem;
+  }
+}
+
+img {
+  max-width: 400px;
+  transform-origin: center;
+  pointer-events: none;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
